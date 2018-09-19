@@ -22,6 +22,8 @@ int main()
   int ray2[10];
   int *point = ray;
 
+  printf("\n");
+
   for (int i = 9; i >= 0; i--)
   {
     ray2[i] = *point;
